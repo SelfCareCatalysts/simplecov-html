@@ -8,7 +8,7 @@ gem "rake", ">= 11"
 
 # Use local copy of simplecov in development if you want to
 # gem "simplecov", :path => File.dirname(__FILE__) + "/../simplecov"
-gem "simplecov", '0.22.0', git: "https://github.com/simplecov-ruby/simplecov"
+gem "simplecov", git: "https://github.com/simplecov-ruby/simplecov"
 
 group :test do
   gem "minitest"

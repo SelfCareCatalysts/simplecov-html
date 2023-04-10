@@ -58,7 +58,7 @@ DEPENDENCIES
   minitest
   rake (>= 11)
   rubocop
-  simplecov (= 0.22.0)!
+  simplecov!
   simplecov-html!
   sprockets (~> 3.7)
   uglifier
