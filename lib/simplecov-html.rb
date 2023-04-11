@@ -5,6 +5,7 @@ require "cgi"
 require "fileutils"
 require "digest/sha1"
 require "time"
+require 'simplecov'
 
 # Ensure we are using a compatible version of SimpleCov
 major, minor, patch = SimpleCov::VERSION.scan(/\d+/).first(3).map(&:to_i)
